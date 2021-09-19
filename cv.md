@@ -61,3 +61,9 @@ WordDictionary.prototype.search = function (word) {
   * FreeCodeCamp. [Responsive web design](https://www.freecodecamp.org/certification/igor_laptev/responsive-web-design) ![Image](https://img.icons8.com/emoji/50/000000/check-mark-emoji.png)
 
   * RS Schools. «JavaScript/Front-end. Stage 1» ![Image](https://img.icons8.com/color/48/000000/loading.png)
+  
+***
+
+## English level
+
+![Image](https://sun9-83.userapi.com/impg/PLhk16RpoqUJ0QIIc1WeTz2xUFWxTABKW-Xfqw/5dF_8Z1HWcQ.jpg?size=1199x731&quality=96&sign=904993eaef5c3afe1750dad16616e276&type=album)
