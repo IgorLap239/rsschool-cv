@@ -10,7 +10,7 @@
   <div class="container">
     <header class="main-header">
       <div class="header-info">
-        <img class="header-photo" src="./img/foto.jpg" width="200" heigth="257" alt="portrait">
+        <img class="header-photo" src="./img/foto.jpg" width="200" height="257" alt="portrait">
         <div class="header-text">
           <h1>Igor Laptev</h1>
           <h2>Junior Front-end developer</h2>
@@ -53,6 +53,7 @@
           <li class="skill-item skill-github">GitHub</li>
           <li class="skill-item skill-vs">VS Code</li>
           <li class="skill-item skill-react">React (base)</li>
+          <li class="skill-item skill-eng">English A2</li>
         </ul>
         <hr>
       </section>
@@ -73,7 +74,7 @@
     WordDictionary.prototype.search = function (word) { 
       let regWord = ^(${word})$;
       let regexp = new RegExp(regWord);
-      for (let i = 0; i < this.dictionary.length; i++) {
+      for (let i = 0; i &lt; this.dictionary.length; i++) {
         if (regexp.test(this.dictionary[i])) {
           console.log(“check”);
           return true; 
@@ -139,5 +140,6 @@
       </div>
     </footer>
   </div>
+  <script src="./src/script.js"></script>
 </body>
 </html>
