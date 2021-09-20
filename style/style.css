@@ -211,9 +211,18 @@ code {
   margin: 0;
   padding: 0;
   display:flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .my-git {
   padding-top: 50px;
+}
+
+.year {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
