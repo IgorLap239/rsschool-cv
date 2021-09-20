@@ -159,6 +159,10 @@ section {
   background-image: url("../img/icons/react.svg");
 }
 
+.skill-eng {
+  background-image: url("../img/icons/eng.png");
+}
+
 pre {
   width: 80%;
   margin: auto;
