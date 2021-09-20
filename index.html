@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igor Laptev</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="main-header">
+      <div class="header-info">
+        <img class="header-photo" src="./img/foto.jpg" width="200" heigth="257" alt="portrait">
+        <div class="header-text">
+          <h1>Igor Laptev</h1>
+          <h2>Junior Front-end developer</h2>
+        </div>
+      </div>
+      <nav class="top-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <h3 class="section-header">About</h3>
+        <p class="about-text">My name is Igor Laptev. I'm from St. Petersburg and I'm 25. I want to get the profession of a front-end developer. I am learning HTML and CSS on my own. Passed the JS course from Glo Academy. In two months on the course, I came to the implementation of the diplom <a class="project-link" href="https://igorlap239.github.io/diplom/">project</a>. It seems to me interesting to work with the front-end part of the projects.
+        </p>
+        <hr>
+      </section>
+      <section class="skills" id="skills">
+        <h3 class="section-header">Skills</h3>
+        <ul class="skills-list">
+          <li class="skill-item skill-html">HTML</li>
+          <li class="skill-item skill-css">CSS</li>
+          <li class="skill-item skill-js">JavaScript</li>
+          <li class="skill-item skill-github">GitHub</li>
+          <li class="skill-item skill-vs">VS Code</li>
+          <li class="skill-item skill-react">React (base)</li>
+        </ul>
+        <hr>
+      </section>
+      <section class="code_example" id="code">
+        <h3 class="section-header">Code example</h3>
+        <pre>
+          <code>
+    //Kata "Urban Dictionary" from CodeWars.com
+    
+    var WordDictionary = function () { 
+      this.dictionary = []; 
+    };
+
+    WordDictionary.prototype.addWord = function (word) {
+      this.dictionary.push(word);
+    };
+    
+    WordDictionary.prototype.search = function (word) { 
+      let regWord = ^(${word})$;
+      let regexp = new RegExp(regWord);
+      for (let i = 0; i < this.dictionary.length; i++) {
+        if (regexp.test(this.dictionary[i])) {
+          console.log(“check”);
+          return true; 
+        }
+      } 
+      return false;
+    };
+          </code>
+        </pre>
+        <hr>
+      </section>
+      <section class="courses" id="courses">
+        <h3 class="section-header">Courses</h3>
+        <ul class="courses-list">
+          <li class="course-item glo">
+            <span>Glo Academy. <a class="course-link" href="https://glo-academy.org/pl/136241446">JavaScript, Base React.</a></span>
+            <div class="certs">
+              <img class="cert-img" src="./img/cert/jsCert.png" width="300" height="464" alt="JavaScript certificate image">
+              <img class="cert-img" src="./img/cert/reactCert.png" width="300" height="464" alt="Base React certificate image">
+            </div>
+          </li>
+          <li class="course-item code-camp">
+            <span>FreeCodeCamp. <a class="course-link" href="https://www.freecodecamp.org/certification/igor_laptev/responsive-web-design">Responsive web design.</a></span>
+            <div class="certs">
+              <img class="cert-img" src="./img/cert/FreeCert.png" width="400" height="311" alt="Responsive web design certificate image">
+            </div>
+          </li>
+          <li class="course-item">
+            <span>RS School. <a class="course-link" href="https://rs.school/js/">JavaScript/Front-end. Stage 1</a> (in progress)</span>
+          </li>
+        </ul>
+        <hr>
+      </section>
+      <section class="contacts" id="contacts">
+        <h3 class="section-header">Contacts</h3>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <span><b>Location:</b> Saint-Petersburg</span>
+          </li>
+          <li class="contact-item">
+            <span><b>Tel.:</b> +7-965-042-49-92</span>
+          </li>
+          <li class="contact-item">
+            <span><b>Email:</b> ilaptev@yandex.ru</span>
+          </li>
+        </ul>
+      </section>
+      <hr>
+    </main>
+    <footer class="main-footer">
+      <div class="my-git">
+        <a class="footer-link" href="https://github.com/IgorLap239">
+          <img src="./img/github-logo.svg" width="200" height="200" alt="GitHub logo">
+        </a>
+      </div>
+      <div class="rs-school">
+        <a href="https://rs.school/js/">
+          <img src="https://rs.school/images/rs_school_js.svg" width="300" height="300" alt="RS School logo">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
