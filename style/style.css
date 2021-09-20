@@ -1,0 +1,219 @@
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0 auto;
+  width: 1000px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #0e3dc0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  color: #0e3dc0;
+  background-color: #ffffff;
+}
+
+hr {
+  margin-top: 20px;
+  color:#0e3dc0;
+  width: 90%;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-photo {
+  margin: 30px 0px 0px 70px;
+}
+
+.header-text {
+  margin: 100px 150px 0px 0px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.top-menu {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  border-left: 1px solid #0e3dc0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.nav-item:first-child {
+  border-left: none
+}
+
+.nav-item:first-child a {
+  padding-left: 0
+}
+
+.nav-link {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #0e3dc0;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffd11a
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  text-indent: 30px;
+}
+
+.section-header {
+  font-size: 30px;
+}
+
+.about-text {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.project-link,
+.course-link {
+  color: #0e3dc0;
+  transition: all 0.5s
+}
+
+.skills-list {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  list-style: none;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left center;
+  margin-bottom: 5px;
+}
+
+.skill-html {
+  background-image: url("../img/icons/html.svg");
+}
+
+.skill-css {
+  background-image: url("../img/icons/css.svg");
+}
+
+.skill-js {
+  background-image: url("../img/icons/js.svg");
+}
+
+.skill-github {
+  background-image: url("../img/icons/github.svg");
+}
+
+.skill-vs {
+  background-image: url("../img/icons/vs.svg");
+}
+
+.skill-react {
+  background-image: url("../img/icons/react.svg");
+}
+
+pre {
+  width: 80%;
+  margin: auto;
+  background-color: #0e3dc0;
+  color: #fff;
+}
+
+code {
+  width: 100%;
+  margin: 0;
+}
+
+.courses-list {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.glo,
+.code-camp {
+  margin-bottom: 20px;
+}
+
+.certs {
+  display: flex;
+  justify-content: center;
+}
+
+.cert-img {
+  margin: 15px auto;
+}
+
+.contacts-list {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.contact-item {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contacts > hr {
+  width: 100%;
+}
+
+.main-footer { 
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: space-around;
+}
+
+.my-git {
+  padding-top: 50px;
+}
